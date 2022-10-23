@@ -5,7 +5,7 @@ PROJECT_TYPE=theme
 
 if [[ ! -z "$CODESPACE_NAME" ]]
 then
-	SITE_HOST="https://${CODESPACE_NAME}-8080.githubpreview.dev"
+	SITE_HOST="https://${CODESPACE_NAME}-8080.preview.app.github.dev"
 else
 	SITE_HOST="http://localhost:8080"
 fi
